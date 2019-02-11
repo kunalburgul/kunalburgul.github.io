@@ -1,0 +1,375 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Resume - Kunal Burgul</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <script type="text/javascript" src="src/script.js"></script>
+  <style type="text/css">
+    body {
+      background-color: #F44336;
+    }
+    .slides-wrapper, .foot-bar {
+      opacity: 0;
+    }
+    .pseudo-title {
+      position: absolute;
+      top: 43%;
+      left: 6vw;
+      opacity: 1;
+      -webkit-transition: all .3s ease-out;
+           -o-transition: all .3s ease-out;
+              transition: all .3s ease-out;
+      z-index: 10;
+      color: white;
+    }
+    .pseudo-title h1 {
+      font-weight: 100;
+      margin: 0;
+    }
+    .pseudo-title h4 {
+      margin: 0;
+      font-weight: 100;
+      font-size: 200%;
+      -webkit-transition: all .15s ease-out;
+           -o-transition: all .15s ease-out;
+              transition: all .15s ease-out;
+    }
+  </style>
+</head>
+<body onload="init()">
+
+<div class="pseudo-title">
+  <h1>Kunal Burgul</h1>
+  <h4 class="sub">Developer</h4>
+</div>
+
+<script type="text/javascript">
+  var tags = ['Developer', 'FreeLancer','Problem Solver', 'Design'];
+  var ind = 1;
+  var interval = setInterval(function(){
+    $('.pseudo-title h4').css('opacity', '0');
+    setTimeout(function(){
+      $('.pseudo-title h4').html(tags[ind]);
+      ind = (ind + 1) % 5;
+      $('.pseudo-title h4').css('opacity', '1');
+    }, 150);
+  }, 1000)
+</script>
+
+<div class="slides-wrapper fullscreen white-text">
+    <ul class="slides">
+
+      <!-- EXPERIENCE -->
+      <li id='experience' class="red">
+        <div class="left-align slide-title">
+          <h1 class="slide-title">Kunal Burgul</h1>
+          <div class="row" style="position:relative; padding-left: 0; margin-bottom: 0;">
+            <div class="slide-title-info" style="padding-left: 0;">
+              <h5 class="light grey-text text-lighten-3">Contact me</h5>
+            </div>
+            <div class="slide-title-info"><a href="https://github.com/kunalburgul"><i class="tiny material-icons">language</i>github.com/kunalburgul</a></div>
+            <div class="slide-title-info"><a href="mailto:kunal.burgul@gmail.com"><i class="tiny material-icons">mail</i>kunal.burgul@gmail.com</a></div>
+            <div class="slide-title-info"><a href="#!"><i class="tiny material-icons">phone</i> +91 9420 262 640</a></div>
+          </div>
+        </div>
+        <div class="row txt">
+          <div class="col s12 m12 l6"  style="padding-left: 0;">
+            <div><b>Actively looking to work with cutting edge technology</b></div>
+            <br>
+            <div><b>CAREER OBJECTIVE:</b></div>
+            <div>
+                  <p>To obtain a challenging position in an engineering environment where my professional skills
+                    add value to organizational operations.</p>
+            </div>
+            <!-- <br>
+            <div>
+              <a href="https://www.arista.com/"><b>Arista Networks, Bangalore</b></a> &nbsp;
+              <i>Software Engineering Intern</i>
+              <span class="right" style="opacity: 0.5;">MAY18-JUL18</span><br>
+               Worked on sharing of shadow memory of TCAM tables between agents. 
+               Special role in taking care of memory offsets for entries in table. 
+               The project lead to 13% reduction in memory usage. 
+               Also worked on enhancing product test functionality.
+            </div> -->
+          </div>
+          <div class="col s12 m12 l6 col-right">
+            <div class="sub-title"><b>EXPERIENCE</b></div>
+            <div>
+              <a href="http://eywasolutions.com/">
+                <b>Eywa Solutions Private Limited</b>
+              </a> &nbsp;
+              <i>Intern</i>
+              <span class="right" style="opacity: 0.5;">FEB 18-NOV 18</span>
+              <br><b>Designation:</b> Associate Software Engineer
+              <br> Worked on Web Scraping in Web Development which involved extracting
+                 date and time for certain specified data from each section of the website.
+              <br> Work in back-end involved integrated the MongoDB database on server and
+              encrypting that partition of the database using LUKS for protection of
+              sensitive information.
+              <br> Also worked on handling collected data from different location using python
+              scripting in ClimaCell Cellular Data Acquisition Project.
+              <br>
+              <br>
+            </div>
+          </div>
+        </div>
+        <div class="row"> 
+          <ul class="social social-mob col">
+            <li class="col" style="position: static; width: 40px;"><a href="https://www.linkedin.com/in/kunal-burgul"><img src="images/logo_linkedin_white.png"/></a></li>
+            <li class="col" style="position: static; width: 40px;"><a href="https://github.com/kunalburgul"><img src="images/logo_github_white.png"/></a></li>
+            <li class="col" style="position: static; width: 40px;"><a href=""><img src="images/logo_fb_white.png"/></a></li>
+            <li class="col" style="position: static; width: 40px;"><a href="https://dribbble.com"><img src="images/logo_dribbble_white.png"/></a></li>
+            <li class="col" style="position: static; width: 40px; margin-left: 3px !important;"><a href="https://github.com/Hrily/Resume/raw/master/Resume%20-%20Hrishikesh%20Hiraskar.pdf"><i class="material-icons white-text">file_download</i></a></li>
+          </ul>
+        </div>
+      </li>
+
+      <!-- ABOUT & ACADEMICS -->
+      <li id='academics' class="teal darken-2">
+        <div class="row">
+          <div class="col s12 m6 l6 txt" style="padding-left: 0;">
+            <div class="row txt">
+              <div class="sub-title"><b>ACADEMICS</b></div>
+                <div class="perc">
+                  <div class="wrapper">
+                      <div class="arc arc-start"></div>    
+                      <div class="arc arc-end" style="transform: rotate(105deg);"></div>
+                      <div class="arc-perc"><b>8.78</b></div>
+                  </div>
+                  <div class="txt">CGPA in <a href="http://www.witsolapur.org/"><b>Walchand Institute of Technology</b></a> (WIT)</div>
+                </div>
+                <div class="perc">
+                  <div class="wrapper">
+                      <div class="arc arc-start"></div>    
+                      <div class="arc arc-end" style="transform: rotate(65deg);"></div>
+                      <div class="arc-perc"><b>69.38</b></div>
+                  </div>
+                  <div class="txt">
+                    % in 10+2 Board (Maharastra State Board)<br>
+                    from <a href="http://wcassolapur.org/"><b>Walchand College of Arts &amp; Science, Solapur</b></a>.
+                  </div>
+                </div>
+                <div class="perc">
+                  <div class="wrapper">
+                      <div class="arc arc-start"></div>    
+                      <div class="arc arc-end" style="transform: rotate(80deg);"></div>
+                      <div class="arc-perc"><b>76</b></div>
+                  </div>
+                  <div class="txt">
+                    % in 10th Board (Central Board)<br>
+                    from <a href="http://www.kleschoolsolapur.com/"> <b>K. L. E English Medium School, Solapur</b></a>
+                  </div>
+                </div>
+                <br>
+                <div>Currently studying <b>B.E.</b> in <b>Computer Engineering</b> at <b>WIT</b>.</div>
+                <div class="sub-title-second">
+                  <b>CLUBS</b>
+                </div>
+                <div>
+                  <ul style="list-style-type:disc">
+                  <b>Worked as Treasurer</b> at <b>Computer Society of India(CSI)-WIT</b> Student Branch<br>
+                  <b>Student Co-ordinator</b> at <b>Computer Society of India(CSI)-WIT</b> Student Branch<br>
+                  <br>
+                </ul>
+                </div>
+                <br>
+            </div>
+          </div>
+          <div class="col s12 m6 l6 txt" style="padding-left: 0;">
+            <div class="sub-title"><b>EXTRA CURRICULAR</b></div>
+            <div>
+              <br>
+              <b>Competitive Programming</b> at HackerRank, HackerEarth, CodeChef, DataCamp<br>
+              <a href="https://goo.gl/AWPtJq"><b>Attended the AWS INNOVATION 2018 Online Conference.</b></a>
+              <br>
+                <a href="https://goo.gl/29r6oj"><b>Attended 1-day Workshop on NVIDIA Deep Learning (TechFest IIT Bombay).</b></a>
+              <br>
+              <a href="https://goo.gl/suwG4Z"><b>Attended a 3-days Artificial Intelligence Summit (TechFest IIT Bombay).</b></a>
+              <br>
+               <a href=" "><b>Participated in ROBUSTUS (Search N’ Destroy) conducted by MindSpark17 (COEP Pune).</b></a>
+              <br>
+                   <b>Participated in various cultural activities and also actively worked as a coordinator in various activities in college.</b>
+            </div>
+            <br>
+            <!-- <div class="sub-title-second">
+              <b>STARTUPS</b>
+            </div>
+            <div>
+              <b>Wheels On Roll : NITK</b> &nbsp;
+              <i>Lead Web, App and Product Developer</i>
+              <br> 
+              A cycle renting startup at NITK. 
+              Developing Website, Android App and IOT framework for automation of rentals. 
+              Also developing an Automated Cycle lock which uses RFID System and RPi.
+              <br>
+              <span style="opacity: 0.5;">More at
+                <a href="https://wheelsonroll.com">wheelsonroll.com</a>
+              </span>
+            </div> -->
+
+          </div>
+        </div>
+      </li>
+
+      <!-- TECHNICAL -->
+       <li id='technical' class="blue-grey darken-2">
+        <div class="row">
+          <div class="col s12 m6 l6 txt" style="padding-left: 0;">
+            <div class="row txt">
+              <div class="sub-title"><b>LANGUAGES &amp; SCRIPTS</b></div>
+              <div class='btn-group'>
+                <span>C</span>
+                <span>C++</span>
+                <span>Java</span>
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>Natural language Processing</span>
+                <span>Shell Scripting</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Bootstrap</span>
+              </div>
+              <br>
+            </div>
+            <div class="row txt"> 
+                <div><b>CERTIFIED ONLINE COURSES</b></div>
+                <br>
+                <b>Deep NLP A to Z</b> by Udemey<br>
+                <b>NLP Foundation Nanodegree</b> by Udacity<br>
+                <b>Programming, Data Structures and Algorithms using Python</b> by (NPTEL)<br>
+                <b>Database Management System</b> by (NPTEL)<br>
+                <b>Design And Analysis Of Algorithm</b> by (NPTEL)<br>
+                <b>Programming in C++</b> by (NPTEL)<br>
+            </div>
+          </div>
+          <div class="col s12 m6 l6 txt">
+            <div class="row txt">
+              <div class="sub-title"><b>TOOLS &amp; FRAMEWORKS</b></div>
+              <div class='btn-group'>
+                  <span>Dockers</span>
+                  <span>Git</span>
+                  <span>Vim</span>
+                  <span>TensorFlow</span>
+                  <span>OpenCV</span>
+                  <span>Photoshop</span>
+                  <span>Raspberry pi</span>
+                  <span>Arduino</span>
+                  <span>MaterializeCSS</span>
+                  <span>Microsoft Office</span>
+                  <span>COREL Graphics Suite</span>
+              </div>
+            </div>
+            <div class="row txt">
+              <div class="sub-title-second"><b>DBMS</b></div>
+              <div class='btn-group'>
+                <span>SQL</span>
+                <span>MySQL</span>
+                <span>Firebase</span>
+                <span>SQLite</span>
+              </div>
+              <br>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- PROJECTS -->
+      <li id='projects' class="green darken-1">
+        <div class="row">
+          <div class="col s12 m6 l6 txt" style="padding-left: 0;">
+            <div class="row txt">
+              <div class="sub-title"><b>PROJECTS</b></div>
+              <div class="projects-list">
+                <a href=""><b> Machine Translation</b></a><br>
+                <b><u>Description</u>:</b>Recurrent Neural Networks Sequence-to-Sequence Model<br>Built a deep neural network that functions as part of an end-to-end machine
+                translation pipeline. The completed pipeline accepts English text as input and
+                return the French translation.
+              </div><br>
+                <b> A Chabot to Bargaining Prices for Woo Commerce Portal</b>
+              <br>
+              <b><u>Description</u>:</b>
+              This is the closed domain retrieval model based chat-bot and the bargaining 
+              process is based on a Multiple Regression ML algorithm which would 
+              suggest the best price to a buyer based on factors like customer loyalty, 
+              remaining stock, expiry date such that seller can maximize his profit.
+              <br>
+              <br>
+              <br>
+              More projects at <a href="https://github.com/kunalburgul"><b>github.com/kunalburgul</b></a><br> 
+            </div>
+          </div>
+          <div class="col s12 m6 l6 txt">
+            <div class="row txt">
+
+
+                <br>
+                <b> Stampede Prevention Using IoT And Image Processing (Mini-project)</b>
+            <br>
+            <b><u>Description</u>:</b>
+            The project aim is prevention of stampede by alerting the security staff in a 
+            dense location with the possibility of stampede by counting the actual number of 
+            people using the camera. This implementation is done using TensorFlow Object 
+            Detection API to achieve more accuracy in counting.
+        
+
+              <!-- <div class="sub-title"><b>OPEN SOURCE CONTRIBUTIONS</b></div>
+              <div class="projects-list">
+                <a href="https://github.com/Hrily/xcos-on-web"><b>Xcos-on-Web</b></a> - 
+                Xcos on Web is the web version of Xcos, a tool for Scilab. My work was revamping of Server and Dynamic plotting of Hybrid
+                Systems.
+              </div>
+              <br>
+              <div class="projects-list">
+                <a href="https://github.com/rivermont/spidy"><b>Spidy</b></a> - 
+                Spidy is a python based Web Crawler and Scraper. I made the crawler multi threaded.
+              </div>
+              <br>
+              <div class="projects-list">
+                <a href="https://github.com/Hrily/browsix"><b>Browsix</b></a> - 
+                Browsix is Unix OS in Browser. My contribution was improving Terminal UI and few fixes.
+              </div> -->
+              <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+
+</div>
+
+<div class="foot-bar">
+  <div class="row">
+    <ul class="social col">
+      <li class="col"><a href="https://www.linkedin.com/in/kunal-burgul"><img src="images/logo_linkedin_white.png"/></a></li>
+      <li class="col"><a href="https://github.com/kunalburgul"><img src="images/logo_github_white.png"/></a></li>
+      <li class="col"><a href=""><img src="images/logo_fb_white.png"/></a></li>
+      <li class="col"><a href="https://dribbble.com"><img src="images/logo_dribbble_white.png"/></a></li>
+
+      <li class="col" style="margin-left: 3px !important;"><a href="https://github.com/Hrily/Resume/raw/master/Resume%20-%20Hrishikesh%20Hiraskar.pdf"><i class="material-icons white-text">file_download</i></a></li>
+    </ul>
+    <ul class="mtab col">
+      <li><a id='a-experience' href="#!" onclick="slide(0, event, 'red')">EXPERIENCE</a></li>
+      <li><a href="#!" onclick="slide(1, event, 'teal darken-2')">ACADEMICS</a></li>
+      <li><a href="#!" onclick="slide(2, event, 'blue-grey darken-2')">TECHNICAL</a></li>
+      <li><a href="#!" onclick="slide(3, event, 'green darken-1')">PROJECTS</a></li>
+      <div id="tab-line-wrapper" class="tab-line-wrapper">
+        <div class="tab-line"></div>
+      </div>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
