@@ -225,6 +225,7 @@ body {
 
 .slides .sub-title {
 	padding-bottom: 1em;
+	text-align: left;
 }
 
 .slides .sub-title-second {
@@ -312,5 +313,4 @@ body {
 	#experience .right {
 		width: 100%;
 	}
-
 }
